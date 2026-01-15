@@ -1,0 +1,35 @@
+# JetBrains IDE 配置文件
+# 默认忽略所有内容，但保留必要的配置
+*
+!*.xml
+!*.iml
+
+# 用户特定设置
+workspace.xml
+usage.statistics.xml
+
+# 运行/调试配置
+runConfigurations/
+*.run.xml
+
+# 缓存和本地历史
+*.iws
+*.bak
+*.swp
+*.tmp
+*.temp
+
+# IDE 文件
+shelf/
+*.eml
+*.log
+
+# Gradle 和 Maven
+.gradle/
+.idea/gradle.xml
+.idea/libraries/
+*.class
+
+# 插件
+.idea/plugins/
+plugins/
